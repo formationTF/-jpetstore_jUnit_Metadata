@@ -14,7 +14,7 @@ import org.squashtest.ta.galaxia.squash.tf.galaxia.annotations.TFMetadata;
 public class TestSelenium_OK_with_Metadata {
 
 	@Test
-	@TFMetadata(key ="linked-TC", value ={"782f5486-3c0c-4c56-9dc9-e91562fffb0a"})
+	@TFMetadata(key ="linked-TC", value ={"df85f9b0-8c70-45fc-9e2d-90b2e83604a5"})
 	public void TestSeleniumJUnit () throws InterruptedException{
 
 		System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
